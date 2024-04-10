@@ -26,7 +26,8 @@ interface Props {
 }
 
 const drawerWidth = 240;
-const navItems = ["Home", "About", "Experience", "Education", "Contact"];
+// "Home", "About", "Experience", "Education", "Contact"
+const navItems: string[] = [];
 
 export const Header = (props: Props) => {
   const { window } = props;
