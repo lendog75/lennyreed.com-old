@@ -9,7 +9,6 @@ import {
 import { Typography, Box, Grid } from "@mui/material";
 import { DutiesList } from "./DutiesList";
 import { IRoleModel, styles } from "../careerTimelineHelpers";
-import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 
 interface ICareerTimelineItemModel {
   role: IRoleModel;
