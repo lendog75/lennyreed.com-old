@@ -1,13 +1,9 @@
-import { Box, Container, Grid, Stack } from "@mui/material";
+import { Container, Grid } from "@mui/material";
 
 import { About } from "./components/About";
 import { Education } from "./components/Education";
 import { CareerTimeline } from "./components/career-timeline/CareerTimeline";
 
-import Image3 from "src/assets/images/3.jpg";
-import Image4 from "src/assets/images/4.jpg";
-
-// adjust about to NOT say angular is my favorite thing
 // TODO: Cleanup about, add tech stack section between photos
 
 // Avatar
@@ -48,21 +44,6 @@ export const Home = () => {
           <Grid item xs={12}>
             <CareerTimeline />
           </Grid>
-          {/* <Grid item xs={0} md={4}>
-            <Stack
-              sx={{
-                display: "flex",
-                flexGrow: 1,
-                height: "100%",
-                justifyContent: "space-between",
-                border: "1px solid red",
-              }}
-            >
-              <img src={Image3} style={{ width: "100%" }} />
-              <Box>FAvorite Tech</Box>
-              <img src={Image4} style={{ width: "100%" }} />
-            </Stack>
-          </Grid> */}
         </Grid>
 
         <Education />
